@@ -17,6 +17,7 @@ class Fc2JavIE(InfoExtractor):
             'ext': 'mp4',
             'title': 'FC2PPV 4932321 - Nursing Student Smiles Through 11 Wild Cumshots from Fully Loaded Balls',
             'description': 'md5:4ae187937b9fbfdcd50491872e74ff25',
+            'age_limit': 18,
         },
     }]
     _CACHE_KEY = 'fc2jav'
@@ -53,6 +54,7 @@ class Fc2JavIE(InfoExtractor):
             'title': title,
             'description': description,
             'formats': formats,
+            'age_limit': 18,
         }
 
     def _get_m3u8_headers(self, embed_url):
