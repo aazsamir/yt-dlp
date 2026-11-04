@@ -572,6 +572,7 @@ from .fc2 import (
     FC2EmbedIE,
     FC2LiveIE,
 )
+from .fc2jav import Fc2JavIE
 from .fczenit import FczenitIE
 from .fifa import FifaIE
 from .filmarchiv import FilmArchivIE
